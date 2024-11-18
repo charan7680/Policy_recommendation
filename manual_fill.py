@@ -37,9 +37,9 @@ gender = st.selectbox("Gender", options=["Male", "Female"])
 # Input for Policy Premium
 policy_premium = st.number_input(
     label="Enter Policy Premium",
-    min_value=0,          # Minimum value allowed
-    max_value=1000000,    # Maximum value allowed
-    value=1000,           # Default value
+    min_value=100,          # Minimum value allowed
+    max_value=10000,    # Maximum value allowed
+    value=100,           # Default value
     step=100              # Step size for increment/decrement
 )
 
