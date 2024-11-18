@@ -5,7 +5,7 @@ import pandas as pd
 # import manual_backend
 
 # Load the trained model
-gb_model = joblib.load(r"/workspaces/Policy_recommendation/ML_model.joblib")
+gb_model = joblib.load(r"./ML_model.joblib")
 
 # Define your feature lists
 input_features = [
