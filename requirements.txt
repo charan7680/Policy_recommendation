@@ -1,5 +1,4 @@
 joblib
-Fitz
 pandas
 numpy
 streamlit

@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-import manual_backend
+# import manual_backend
 
 # Load the trained model
 gb_model = joblib.load(r"/workspaces/Policy_recommendation/ML_model.joblib")
