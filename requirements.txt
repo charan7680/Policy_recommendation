@@ -4,5 +4,4 @@ numpy
 streamlit
 scikit-learn
 PyPDF2
-ast
-google.generativeai
+google-generativeai
