@@ -3,3 +3,6 @@ pandas
 numpy
 streamlit
 scikit-learn
+PyPDF2
+ast
+google.generativeai
