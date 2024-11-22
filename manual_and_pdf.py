@@ -28,7 +28,7 @@ if input_method == "Upload Health Report (PDF)":
 
     if uploaded_file is not None:
         # Process the file using Gemini API
-        genai.configure(api_key='AIzaSyD4RM_gV6-Ck8JOWO6mbpXZKtsCxhijoAk')
+        genai.configure(api_key=[api_key])
         Gemini_model = genai.GenerativeModel("gemini-1.5-flash")
         prompt = """\nConsider the medical report and extract the medical records of the patient in this python dictionary format
 
